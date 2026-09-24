@@ -1,6 +1,6 @@
 cask "writer" do
-  version "0.1.0"
-  sha256 "e268d7d1bc66ed6c21fa004cb932084aefa06c6d7742840e6193fa7560cfbc78"
+  version "0.1.1"
+  sha256 "2d773190f7c2d4d96dcd893f92b7fa44f6bf45739899489133111f3587802d50"
 
   url "https://github.com/Auspexlabs/writer/releases/download/v#{version}/Writer-#{version}-mac.dmg"
   name "Writer"
