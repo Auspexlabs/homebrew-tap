@@ -1,6 +1,6 @@
 cask "writer" do
-  version "0.1.1"
-  sha256 "2d773190f7c2d4d96dcd893f92b7fa44f6bf45739899489133111f3587802d50"
+  version "0.1.2"
+  sha256 "966c2cfa2a4bb783d04dced292578665bc71ac96019e495e9f3461188b3b6ad5"
 
   url "https://github.com/Auspexlabs/writer/releases/download/v#{version}/Writer-#{version}-mac.dmg"
   name "Writer"
@@ -11,6 +11,8 @@ cask "writer" do
     url :url
     strategy :github_latest
   end
+
+  auto_updates true
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
